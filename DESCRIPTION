@@ -1,7 +1,7 @@
 Package: TUFLOWR
 Type: Package
 Title: Helper Functions for 'TUFLOW FV' Models
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Matt", "Gibbs", email = "gibbs.ms@gmail.com",
     role = c("aut", "cre"))
 Author: Matt Gibbs [aut, cre]
@@ -12,10 +12,11 @@ Description: Helper functions for 'TUFLOW FV' models. Current functionality incl
 License: GPL-3
 Depends: R (>= 4.0.0)
 Encoding: UTF-8
-Imports: raster, readr, tibble, tidyr, stringr, rgdal, sp, dplyr,
-        gstat, lubridate, ggplot2, rlang, magrittr
-RoxygenNote: 7.1.1
+Imports: raster, readr, tibble, tidyr, stringr, sf, sp, dplyr, gstat,
+        lubridate, ggplot2, rlang, magrittr
+RoxygenNote: 7.2.3
+Suggests: covr
 NeedsCompilation: no
-Packaged: 2021-10-15 05:17:28 UTC; MGIBBS
+Packaged: 2023-04-27 02:05:36 UTC; gib417
 Repository: CRAN
-Date/Publication: 2021-10-18 14:30:05 UTC
+Date/Publication: 2023-04-27 02:42:30 UTC
